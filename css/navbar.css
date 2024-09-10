@@ -1,0 +1,46 @@
+.navbar {
+    width: 100% !important;
+    background-color: #20232a !important; 
+    margin-bottom: 20px !important; 
+}
+
+/* Estilos para la barra de navegación */
+.navbar-nav {
+    display: flex !important;
+    justify-content: center !important; 
+    flex-wrap: nowrap !important; 
+    width: 100% !important;
+}
+
+/* Estilos para los elementos de la navbar */
+.navbar-nav .nav-item {
+    margin: 0 10px !important; 
+}
+
+/* Estilos para los enlaces de la navbar */
+.navbar-nav .nav-link {
+    color: #ffffff !important; 
+    text-decoration: none !important; 
+    padding: 10px 15px !important; 
+}
+
+/* Cambia el color del texto cuando el ratón pasa sobre los enlaces */
+.navbar-nav .nav-link:hover {
+    color:  #28a745 !important; 
+}
+
+/* Estilo para el botón de hamburguesa */
+.navbar-toggler {
+    border: none !important; 
+    background-color: transparent !important; 
+}
+
+/* Icono del botón de hamburguesa */
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 30"%3E%3Cpath stroke="%23fff" stroke-width="2" d="M4 6h22M4 15h22M4 24h22" /%3E%3C/svg%3E') !important; 
+    background-size: 24px 24px !important; 
+    background-repeat: no-repeat !important; 
+}
+
+
+

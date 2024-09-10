@@ -1,0 +1,93 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #282c34; 
+    color: #ffffff; 
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem !important; 
+    margin: 10px 0 !important; 
+}
+
+/* Estilo para la sección de ponentes */
+.ponentes {
+    text-align: center; 
+}
+
+/* Estilo para el contenedor de las tarjetas */
+.card-container {
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+}
+
+/* Estilo para las tarjetas */
+.card {
+    margin: 0 auto; 
+}
+
+/* Estilo para los botones "Conocer más" */
+.btn-primary {
+    background-color: #28a745 !important; 
+    border-color: #28a745 !important; 
+    color: #ffffff !important; 
+}
+
+.btn-primary:hover {
+    background-color: #218838 !important; 
+    border-color: #1e7e34 !important; 
+}
+
+.encabezadoponentes{
+    justify-content: center;
+    font-size: 2.5rem;
+    background-color: #282c34 !important;
+    color: white;
+    padding: 20px;
+}
+
+.container-ponentes{
+    background-color: #282c34 !important;
+}
+
+.container-horarios{
+    background-color: #282c34 !important;
+    color: #ffffff;
+}
+
+.container-universal{
+    background-color: #282c34 !important;
+    color: white !important;
+}
+
+/* No permite que haya espacio adicional en el body */
+body {
+    margin: 0; 
+}
+
+footer {
+    margin-top: 0 !important; 
+}
+
+.info-evento{
+    margin-left: 25px;
+    margin-right: 25px;
+    justify-content: center !important;
+}
+
+.info-evento h3{
+    justify-content: center !important;
+}
+
+.card-body{
+    color: #ffffff !important;
+    background-color: #282c34 !important;
+}
+
+
+

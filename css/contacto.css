@@ -1,0 +1,27 @@
+
+h1{
+    display: flex;
+    justify-content: center !important;
+    color: white !important;
+    background-color: #282c34;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 200%;
+}
+
+body, input, select, textarea{
+    background-color: #282c34 !important;
+    color: white !important;
+}
+
+body{
+    margin: 10px !important;
+}
+
+.form-text{
+    color: white !important;
+}
+
+button{
+    background-color: #218838 !important; 
+    border-color: #1e7e34 !important;
+}
